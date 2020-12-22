@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+
+.container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+figcaption span {
+    font-style: normal;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+}
+
+body {
+    background-color:lightseagreen;
+    margin: 1em;
+}
+
+main {
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    border:limegreen solid;
+    border-radius: 1em;
+    /*margin-top: 1em;*/
+    /*max-width: 400em;*/
+}
+
+nav {
+    background-color: white;
+    max-width: 10em;
+    padding: 0.1em;
+    border:limegreen solid;
+    border-radius: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    /*! padding-left: 0.4em; */
+    margin: 0;
+    /*! padding-right: 0.4em; */
+    padding: 0.4em;
+}
+
+nav ul li a {
+    display:inline-block;
+    width: 100%;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 0;       
+}
+
+nav ul li a:hover {
+    background-color: limegreen;
+}
+
+nav ul li a:visited {
+    color: black;
+}
+
+nav ul li.active {
+    background-color: limegreen;
+}
+
+
+h1, h2, h3 {
+    font-family:sans-serif;
+    text-align: center;
+}
+
+footer p {
+    text-align:center;
+}
